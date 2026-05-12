@@ -18,6 +18,12 @@ const accountRouter = require("./routes/account.routes")
 const transactionRoutes = require("./routes/transaction.routes")
 
 
+
+
+app.get('/',(req,res)=>{
+    res.send("Ledger service is up and running")
+})
+
 /*
 
 ====> use  Routes
